@@ -1,0 +1,23 @@
+1.
+	Create Makefile for different compilation options.
+	
+	- Find out what compilation options need to be enabled 
+	- Make multiple programs for each option / combination and debug/non-debug versions (Currently 32 different combinations, excluding debug versions. Need to ask Oliver for which are necssary)
+
+
+2.
+
+	Automatic script to compile and test the files made.
+
+	- Have output written to a file for checking results? (Check, Including having the cerr written to the file for unit clauses etc.)
+	- Compiles "all" using the makefile (currently makefile's "all" doesn't do what it's meant to since compiler option combinations are not necessariyl correct)
+	- Removes the test file before beginning the testing (Having it recreate when the solver is run)
+	- Only "Satisfiable" or "Unsatisfiable" are recorded (and errors to make sure lines aren't skipped for unit clause tests etc.)
+	- Currently prints the file out afterwards, this is for testing purposes only
+
+3.
+	Create CNF files for extreme cases.
+
+	- Empty, EmptyClause...
+	- More added for testing the scripts (Tautology and an Unsatisfiable file)
+	- Research required

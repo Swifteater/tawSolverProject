@@ -1,0 +1,10 @@
+s UNSATISFIABLE
+s SATISFIABLE
+s SATISFIABLE
+v 1 2 0
+s SATISFIABLE
+ERROR[tawSolver]: Found empty clause in input.
+ERROR[tawSolver]: Found empty clause in input.
+ERROR[tawSolver]: Found empty clause in input.
+ERROR[tawSolver]: Found empty clause in input.
+ERROR[tawSolver]: Found empty clause in input.
